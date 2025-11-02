@@ -23,7 +23,7 @@ img {
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -41,8 +41,7 @@ img {
 
 .header {
     display: flex;
-    align-items: center;
-    width: 1158px;
+     align-items: center;
 }
 
 .header-logo {
@@ -90,6 +89,7 @@ a:hover, a:focus {
 }
 
 .address {
+    margin-left: auto;
     font-style: normal;
 } 
 
@@ -109,9 +109,7 @@ a:hover, a:focus {
     color: #434455;
     display: flex;
     align-items: center;
-    padding: 24px 0;
-    gap: 40px;
-    margin-left: 332px;
+    gap: 40px; 
 }
  
 /* #endregion header */
@@ -149,8 +147,7 @@ a:hover, a:focus {
     padding: 16px 32px;
     border-radius: 4px;
     border: none;
-    margin-bottom: 188px;
-    display: block;
+     display: block;
     min-width: 169px;
   height: 56px;
 }
@@ -200,8 +197,7 @@ button:hover, button:focus {
 
 .section-info {
     display: flex;
-    padding: 120px 156px;
-      align-items: center;
+    align-items: center;
 gap: 24px;
 }
 
@@ -285,8 +281,7 @@ margin-bottom: 72px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding: 32px 226px 8px 16px;
-    margin-bottom: 8px;
+     margin-bottom: 8px;
 }
 
 .our-portfolio-discription {
@@ -294,8 +289,7 @@ margin-bottom: 72px;
  font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-    padding: 0 314px 32px 16px;
+     color: #434455;
 }
 
 .our-portfolio-block {
@@ -361,8 +355,5 @@ margin-bottom: 72px;
     margin-top: 16px;
 }
 
-.footer-block {
-    padding: 100px 1020px 100px 156px;
-}
-
+ 
 /* #endregion footer */

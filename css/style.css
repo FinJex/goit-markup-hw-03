@@ -16,10 +16,15 @@ h1, h2, h3, h4, h5, h6, p {
 a {
     text-decoration: none;
 }
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+ }
 /* #region header */
 
 .page-header {
-    border-bottom: 1px solid var(--cornflower);
+    border-bottom: 1px solid #e7e9fc
 }
 .header-container {
     display: flex;
@@ -73,7 +78,7 @@ a:hover, a:focus {
 }
 .address {
     font-style: normal;
-    margin-left: auto;
+ 
 }
 .emeil {
  font-size: 16px;
@@ -81,7 +86,7 @@ a:hover, a:focus {
  letter-spacing: 0.02em;
  color: #434455;
  padding: 24px 0;
- display: block;
+ display: inline-block;
 }
 
 .head-list {
@@ -89,11 +94,12 @@ a:hover, a:focus {
  line-height: 1.5;
  letter-spacing: 0.02em;
  color: #434455;
- gap: 40px;
-
-
+   display: flex;
+   align-items: center;
  padding: 24px 0;
- margin: 940px;
+  gap: 40px;
+  margin-left: 332px;
+ 
 }
 a:hover, a:focus {
     color: #404bbf ;
@@ -106,6 +112,10 @@ a:hover, a:focus {
 
 .main-section {
     background-color: #2E2F42;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .main-head {
     font-weight: 700;
@@ -114,11 +124,10 @@ a:hover, a:focus {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     font-style: bold;
-    line-height: 1.07;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 188px;
+    line-height: 1.07; 
     margin-bottom: 48px;
+    margin-top: 188px;
+    
 }
 .button {
    font-weight: 500;
@@ -130,10 +139,11 @@ a:hover, a:focus {
     font-style: medium;
     font-family: "Roboto", sans-serif;
     cursor: pointer;
-    margin: 0 auto;
-    text-align: center;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border-style: none;
     margin-bottom: 188px;
-    margin-top: 356px;
+    
 }
 
 button:hover, button:focus {
@@ -141,9 +151,21 @@ button:hover, button:focus {
 }
 
 
-/* #argin-top: 356px;endregion section1 */
+/* #endregion section1 */
 
 /* #region section2 */
+.visually-hidden {
+ position: absolute;
+ width: 1px;
+ height: 1px;
+ margin: -1px;
+ border: 0;
+ padding: 0;
+ white-space: nowrap;
+ clip-path: inset(100%);
+ clip: rect(0 0 0 0);
+ overflow: hidden;
+}
 .step {
     font-weight: 500;
     font-size: 20px;
@@ -151,6 +173,10 @@ button:hover, button:focus {
     letter-spacing: 0.02em;
     color: #2E2F42;
     font-style: medium;
+    width: calc((100% - (3 * 24px)) / 4);
+    width: 264px;
+    margin-bottom: 8px;
+
 }
 .step-p {
    font-weight: 400;
@@ -159,12 +185,20 @@ button:hover, button:focus {
    letter-spacing: 0.02em;
    color: #434455;
 }
+.section-info {
+    display: flex;
+    padding: 120px 156px;
+    align-items: baseline;
+    gap: 24px;
+    align-items: center;
+}
 
 /* #endregion section2 */
 
 /* #region section3 */
 .our-team-section {
     background-color: #F4F4FD;
+    display: block;
 }
 .our-team-title {
    font-weight: 700;
@@ -175,7 +209,11 @@ button:hover, button:focus {
    font-style: bold;
    line-height: 1.11;
    text-align: center;
-   text-transform: capitalize 
+   text-transform: capitalize;
+   padding-top: 120px;
+   padding-bottom: 72px;
+   display: block;
+   
 }
 
 
@@ -199,7 +237,10 @@ background-color: #FFFFFF;
     letter-spacing: 0.02em;
     color: #434455;
 }
-
+.our-team-block {
+    display: flex;
+    align-items: center;
+}
 /* #endregion section3 */
 
 /* #region section4 */
@@ -211,9 +252,11 @@ background-color: #FFFFFF;
     line-height: 40px;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    line-height: 1.11;
-    text-align: center;
+    line-height: 1.11; 
     text-transform: capitalize;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 72px;
 }
 
 .our-portfolio {
@@ -223,6 +266,7 @@ background-color: #FFFFFF;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding: 32px 226px 8px 16px;
 }
 
 .our-portfolio-discription {
@@ -232,8 +276,19 @@ background-color: #FFFFFF;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
+    padding: 0px 314px 32px 16px;
+ }
+    .our-portfolio-block {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    border-radius: 0 0 4px 4px;
+    
 }
-
+.li-border {
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
 /* #endregion section4 */
 
 /* #region futter */
@@ -265,14 +320,15 @@ background-color: #2E2F42;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    width: 264px;
+    margin-top: 16px;
+}
+.footer-block {
+    padding: 100px 1020px 100px 156px;
 }
 
 
 /* #endregion futter */
 
 
-.container { 
-max-width: 1158px;
-padding: 0 15px  ; 
-margin: auto;
-}
+ 

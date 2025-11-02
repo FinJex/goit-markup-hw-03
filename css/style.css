@@ -262,6 +262,9 @@ font-weight: 400;
 /* #endregion section3 */
 
 /* #region section4 */
+.portfolio-section {
+    padding-top: 120px;
+}
 
 .our-portfolio-title {
 font-weight: 700;

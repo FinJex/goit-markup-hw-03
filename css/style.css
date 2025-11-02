@@ -6,6 +6,11 @@ body {
 
 ul {
 list-style-type: none;
+margin: 0;
+padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
 }
 
 a {
@@ -13,8 +18,21 @@ a {
 }
 /* #region header */
 
-
-
+.page-header {
+    border-bottom: 1px solid var(--cornflower);
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
 .logo {
    font-family: "Raleway", sans-serif;
    font-weight: 700;
@@ -38,23 +56,32 @@ span {
     font-style: medium;
     font-size: 16px;
     letter-spacing: 2%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
 }
 .a-studio {
+    display: block;
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #2e2f42;
+     padding: 24px 0;
 }
 a:hover, a:focus {
     color: #404bbf;
 }
 .address {
     font-style: normal;
+    margin-left: auto;
 }
 .emeil {
  font-size: 16px;
  line-height: 1.5;
  letter-spacing: 0.02em;
  color: #434455;
+ padding: 24px 0;
+ display: block;
 }
 
 .head-list {
@@ -62,6 +89,11 @@ a:hover, a:focus {
  line-height: 1.5;
  letter-spacing: 0.02em;
  color: #434455;
+ gap: 40px;
+
+
+ padding: 24px 0;
+ margin: 940px;
 }
 a:hover, a:focus {
     color: #404bbf ;
@@ -84,6 +116,8 @@ a:hover, a:focus {
     font-style: bold;
     line-height: 1.07;
     text-align: center;
+    margin: 0 auto;
+    padding: 188px 192px;
 }
 .button {
    font-weight: 500;
@@ -95,6 +129,8 @@ a:hover, a:focus {
     font-style: medium;
     font-family: "Roboto", sans-serif;
     cursor: pointer;
+    margin: 0 auto;
+    padding: 356px 188px;
 }
 
 button:hover, button:focus {
@@ -230,3 +266,10 @@ background-color: #2E2F42;
 
 
 /* #endregion futter */
+
+
+.container { 
+max-width: 1158px;
+padding: 0 15px  ; 
+margin: auto;
+}

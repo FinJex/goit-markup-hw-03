@@ -117,7 +117,8 @@ a:hover, a:focus {
     line-height: 1.07;
     text-align: center;
     margin: 0 auto;
-    padding: 188px 192px;
+    margin-top: 188px;
+    margin-bottom: 48px;
 }
 .button {
    font-weight: 500;
@@ -130,7 +131,9 @@ a:hover, a:focus {
     font-family: "Roboto", sans-serif;
     cursor: pointer;
     margin: 0 auto;
-    padding: 356px 188px;
+    text-align: center;
+    margin-bottom: 188px;
+    margin-top: 356px;
 }
 
 button:hover, button:focus {
@@ -138,7 +141,7 @@ button:hover, button:focus {
 }
 
 
-/* #endregion section1 */
+/* #argin-top: 356px;endregion section1 */
 
 /* #region section2 */
 .step {

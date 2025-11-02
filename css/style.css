@@ -150,8 +150,7 @@ a:hover, a:focus {
      display: block;
     min-width: 169px;
   height: 56px;
-  text-align: center;
-  display: inline-flex;
+  margin: auto;
 }
 
 button:hover, button:focus {

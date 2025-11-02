@@ -116,10 +116,7 @@ a:hover, a:focus {
 
 .main-section {
     background-color: #2E2F42;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex; 
     padding: 188px 0;
 }
 .main-head {
@@ -129,9 +126,7 @@ a:hover, a:focus {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     font-style: bold;
-    line-height: 1.07; 
-    margin-bottom: 48px;
-    margin-top: 188px;
+    line-height: 1.07;  
     max-width: 496px;
     
 }
@@ -144,11 +139,9 @@ a:hover, a:focus {
     color: #FFFFFF;
     font-style: medium;
     font-family: "Roboto", sans-serif;
-    cursor: pointer;
-    padding: 16px 32px;
+    cursor: pointer; 
     border-radius: 4px;
-    border-style: none;
-    margin-bottom: 188px;
+    border-style: none; 
     display: block;
     min-width: 169px;
     height: 56px;
